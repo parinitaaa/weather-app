@@ -61,20 +61,7 @@ A simple and elegant weather application built with Node.js and Express that all
 - **HTTP Client**: Axios
 - **Environment**: dotenv
 
-## 📁 Project Structure
 
-```
-weather_app/
-├── public/
-│   └── style.css          # CSS styles
-├── views/
-│   └── index.ejs          # Main template
-├── .env                   # Environment variables (not tracked)
-├── .gitignore            # Git ignore rules
-├── package.json          # Dependencies and scripts
-├── package-lock.json     # Dependency lock file
-├── server.js             # Main server file
-└── README.md             # This file
 ```
 
 ## 🔧 API Endpoints
@@ -93,13 +80,8 @@ weather_app/
    - Weather icon
    - Humidity percentage
 
-## 🎨 Customization
 
-You can customize the app by:
 
-- Modifying `public/style.css` for styling changes
-- Updating `views/index.ejs` for layout changes
-- Adding more weather data fields in `server.js`
 
 ## 📝 Environment Variables
 
@@ -109,41 +91,8 @@ Create a `.env` file with the following variable:
 API=your_weather_api_key_here
 ```
 
-## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
-## 📄 License
 
-This project is licensed under the ISC License.
-
-## 🐛 Troubleshooting
-
-### Common Issues
-
-1. **"City not found!" error**
-   - Make sure you're entering a valid city name
-   - Check your API key is correct
-   - Verify your internet connection
-
-2. **Server won't start**
-   - Ensure Node.js is installed
-   - Check if port 3000 is available
-   - Verify all dependencies are installed (`npm install`)
-
-3. **API errors**
-   - Verify your WeatherAPI.com API key is valid
-   - Check if you've exceeded API rate limits
-   - Ensure the `.env` file is in the root directory
-
-## 📞 Support
-
-If you encounter any issues or have questions, please open an issue on GitHub.
-
----
 
 **Happy Weather Checking! 🌤️**
