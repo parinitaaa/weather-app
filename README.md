@@ -19,7 +19,7 @@ A simple and elegant weather application built with Node.js and Express that all
 - npm (Node Package Manager)
 - WeatherAPI.com API key
 
-### Installation
+## Installation
 
 1. **Clone the repository**
    ```bash
@@ -69,7 +69,7 @@ A simple and elegant weather application built with Node.js and Express that all
 - `GET /` - Renders the main weather app page
 - `POST /` - Processes city search and returns weather data
 
-## 🌐 Usage
+### 🌐 Usage
 
 1. Enter a city name in the search box
 2. Click the "Search" button
@@ -83,7 +83,7 @@ A simple and elegant weather application built with Node.js and Express that all
 
 
 
-## 📝 Environment Variables
+### 📝 Environment Variables
 
 Create a `.env` file with the following variable:
 
