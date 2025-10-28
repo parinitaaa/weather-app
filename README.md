@@ -62,7 +62,7 @@ A simple and elegant weather application built with Node.js and Express that all
 - **Environment**: dotenv
 
 
-```
+
 
 ## 🔧 API Endpoints
 
